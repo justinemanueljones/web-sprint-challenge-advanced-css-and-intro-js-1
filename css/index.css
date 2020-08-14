@@ -134,3 +134,34 @@ button:hover{
 .artist img{
     width:100%;
 }
+/*phone wireframe starts here*/
+@media(min-width:500px){
+ a ,nav{
+     visibility: hidden;
+}
+.title-container div{
+    display: flex; 
+    width: 100%;
+}
+.artists-container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.artist{
+    display: inline-block;
+    width: 55%;
+    margin-left: 34% ;
+}
+img{
+    height: auto;
+}
+h2{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+.bio{
+    font-size: 0.1rem;
+}
+}
